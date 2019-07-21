@@ -15,6 +15,7 @@ ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < A
 Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
 Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
 ProductsController	app/controllers/products_controller.rb	/^class ProductsController < ApplicationController$/;"	c
+ProductsHelper	app/helpers/products_helper.rb	/^module ProductsHelper$/;"	m
 ShoppingApp	config/application.rb	/^module ShoppingApp$/;"	m
 index	app/controllers/products_controller.rb	/^  def index$/;"	f	class:ProductsController
 show	app/controllers/products_controller.rb	/^  def show$/;"	f	class:ProductsController
