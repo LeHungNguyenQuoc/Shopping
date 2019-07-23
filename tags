@@ -14,41 +14,10 @@ ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < 
 ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
 Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
 Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
-OnePageNav	vendor/assets/javascripts/main.js	/^	var OnePageNav = function() {$/;"	f
 ProductsController	app/controllers/products_controller.rb	/^class ProductsController < ApplicationController$/;"	c
 ProductsHelper	app/helpers/products_helper.rb	/^module ProductsHelper$/;"	m
 ShoppingApp	config/application.rb	/^module ShoppingApp$/;"	m
-addresses	vendor/assets/javascripts/google-map.js	/^    var addresses = ['New York'];$/;"	v
-addresses	vendor/assets/stylesheets/google-map.js	/^    var addresses = ['New York'];$/;"	v
-carousel	vendor/assets/javascripts/main.js	/^	var carousel = function() {$/;"	f
-contentWayPoint	vendor/assets/javascripts/main.js	/^	var contentWayPoint = function() {$/;"	f
-counter	vendor/assets/javascripts/main.js	/^	var counter = function() {$/;"	f
-fullHeight	vendor/assets/javascripts/main.js	/^	var fullHeight = function() {$/;"	f
-goHere	vendor/assets/javascripts/main.js	/^	var goHere = function() {$/;"	f
-google	vendor/assets/javascripts/google-map.js	/^var google;$/;"	v
-google	vendor/assets/stylesheets/google-map.js	/^var google;$/;"	v
 index	app/controllers/products_controller.rb	/^  def index$/;"	f	class:ProductsController
-init	vendor/assets/javascripts/google-map.js	/^function init() {$/;"	f
-init	vendor/assets/stylesheets/google-map.js	/^function init() {$/;"	f
-init.mapOptions.center	vendor/assets/javascripts/google-map.js	/^        center: myLatlng,$/;"	p
-init.mapOptions.center	vendor/assets/stylesheets/google-map.js	/^        center: myLatlng,$/;"	p
-init.mapOptions.scrollwheel	vendor/assets/javascripts/google-map.js	/^        scrollwheel: false,$/;"	p
-init.mapOptions.scrollwheel	vendor/assets/stylesheets/google-map.js	/^        scrollwheel: false,$/;"	p
-init.mapOptions.styles	vendor/assets/javascripts/google-map.js	/^        styles: [$/;"	p
-init.mapOptions.styles	vendor/assets/stylesheets/google-map.js	/^        styles: [$/;"	p
-init.mapOptions.zoom	vendor/assets/javascripts/google-map.js	/^        zoom: 7,$/;"	p
-init.mapOptions.zoom	vendor/assets/stylesheets/google-map.js	/^        zoom: 7,$/;"	p
-isMobile.Android	vendor/assets/javascripts/main.js	/^		Android: function() {$/;"	m
-isMobile.BlackBerry	vendor/assets/javascripts/main.js	/^			BlackBerry: function() {$/;"	m
-isMobile.Opera	vendor/assets/javascripts/main.js	/^			Opera: function() {$/;"	m
-isMobile.Windows	vendor/assets/javascripts/main.js	/^			Windows: function() {$/;"	m
-isMobile.any	vendor/assets/javascripts/main.js	/^			any: function() {$/;"	m
-isMobile.iOS	vendor/assets/javascripts/main.js	/^			iOS: function() {$/;"	m
-loader	vendor/assets/javascripts/main.js	/^	var loader = function() {$/;"	f
-makeTimer	vendor/assets/javascripts/main.js	/^	function makeTimer() {$/;"	f
-mapElement	vendor/assets/javascripts/google-map.js	/^    var mapElement = document.getElementById('map');$/;"	v
-mapElement	vendor/assets/stylesheets/google-map.js	/^    var mapElement = document.getElementById('map');$/;"	v
-scrollWindow	vendor/assets/javascripts/main.js	/^	var scrollWindow = function() {$/;"	f
 show	app/controllers/products_controller.rb	/^  def show$/;"	f	class:ProductsController
 system!	bin/setup	/^def system!(*args)$/;"	f
 system!	bin/update	/^def system!(*args)$/;"	f
