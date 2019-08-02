@@ -1,0 +1,12 @@
+<div class="sidebar">
+  <div class="sidebar-box-2">
+    <h2 class="heading">Danh Mục</h2>
+    <div class="panel-body">
+      <ul>
+        <% @categories.each do |category| %>
+          <li><a href="#"><%= category.name %></a></li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div>

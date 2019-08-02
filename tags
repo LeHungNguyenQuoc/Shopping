@@ -12,11 +12,16 @@ ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/
 ApplicationJob	app/jobs/application_job.rb	/^class ApplicationJob < ActiveJob::Base$/;"	c
 ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
 ApplicationRecord	app/models/application_record.rb	/^class ApplicationRecord < ActiveRecord::Base$/;"	c
+Category	app/models/category.rb	/^class Category < ApplicationRecord$/;"	c
 Channel	app/channels/application_cable/channel.rb	/^  class Channel < ActionCable::Channel::Base$/;"	c	class:ApplicationCable
 Connection	app/channels/application_cable/connection.rb	/^  class Connection < ActionCable::Connection::Base$/;"	c	class:ApplicationCable
+CreateCategories	db/migrate/20190802093214_create_categories.rb	/^class CreateCategories < ActiveRecord::Migration[5.2]$/;"	c
+CreateProducts	db/migrate/20190802094437_create_products.rb	/^class CreateProducts < ActiveRecord::Migration[5.2]$/;"	c
 ProductsController	app/controllers/products_controller.rb	/^class ProductsController < ApplicationController$/;"	c
 ProductsHelper	app/helpers/products_helper.rb	/^module ProductsHelper$/;"	m
 ShoppingApp	config/application.rb	/^module ShoppingApp$/;"	m
+change	db/migrate/20190802093214_create_categories.rb	/^  def change$/;"	f	class:CreateCategories
+change	db/migrate/20190802094437_create_products.rb	/^  def change$/;"	f	class:CreateProducts
 index	app/controllers/products_controller.rb	/^  def index$/;"	f	class:ProductsController
 show	app/controllers/products_controller.rb	/^  def show$/;"	f	class:ProductsController
 system!	bin/setup	/^def system!(*args)$/;"	f

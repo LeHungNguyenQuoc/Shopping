@@ -32,6 +32,7 @@ class ProductsController < ApplicationController
         image: 'https://cdn.tgdd.vn/Products/Images/522/195067/ipad-pro-11-inch-2018-64gb-wifi-33397-thumb-600x600.jpg'
       },
     ]
+     @categories = Category.all
   end
 
   def show
